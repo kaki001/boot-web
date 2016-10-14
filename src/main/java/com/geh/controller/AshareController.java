@@ -1,10 +1,10 @@
-package com.caimao.jyt.ashare.controller;
+package com.geh.controller;
 
-import com.caimao.jyt.ashare.bean.LoginInput;
-import com.caimao.jyt.ashare.bean.ResultObject;
-import com.caimao.jyt.ashare.reactor.base.TaskEventReactor;
-import com.caimao.jyt.ashare.reactor.event.TestEvent;
-import com.caimao.jyt.ashare.utils.Constants;
+import com.geh.bean.LoginInput;
+import com.geh.bean.ResultObject;
+import com.geh.reactor.base.TaskEventReactor;
+import com.geh.reactor.event.TestEvent;
+import com.geh.utils.Constants;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.CachePut;
@@ -22,7 +22,7 @@ import javax.validation.Valid;
 import java.util.Locale;
 
 @RestController
-@RequestMapping("/api/jyt/ashare/")
+@RequestMapping("/api/")
 public class AshareController {
 
     @Autowired

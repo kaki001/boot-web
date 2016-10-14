@@ -1,7 +1,7 @@
-package com.caimao.jyt.ashare.bean;
+package com.geh.bean;
 
 
-import com.caimao.jyt.ashare.validator.annotation.NotEmpty;
+import com.geh.validator.annotation.NotEmpty;
 
 /**
  * Created by HuoBi on 2016/10/10.

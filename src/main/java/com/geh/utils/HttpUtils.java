@@ -1,6 +1,6 @@
-package com.caimao.jyt.ashare.utils;
+package com.geh.utils;
 
-import com.caimao.jyt.ashare.bean.ResultObject;
+import com.geh.bean.ResultObject;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.util.JSONPObject;
 import org.apache.http.HttpEntity;

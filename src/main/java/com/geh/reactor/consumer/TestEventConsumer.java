@@ -1,7 +1,7 @@
-package com.caimao.jyt.ashare.reactor.consumer;
+package com.geh.reactor.consumer;
 
-import com.caimao.jyt.ashare.reactor.base.AbstractTaskEventConsumer;
-import com.caimao.jyt.ashare.reactor.event.TestEvent;
+import com.geh.reactor.base.AbstractTaskEventConsumer;
+import com.geh.reactor.event.TestEvent;
 import org.springframework.stereotype.Component;
 
 @Component

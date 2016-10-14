@@ -1,9 +1,9 @@
-package com.caimao.jyt.ashare.reactor.register;
+package com.geh.reactor.register;
 
-import com.caimao.jyt.ashare.reactor.base.TaskEventConsumerRegister;
-import com.caimao.jyt.ashare.reactor.base.TaskEventReactor;
-import com.caimao.jyt.ashare.reactor.consumer.TestEventConsumer;
-import com.caimao.jyt.ashare.reactor.event.TestEvent;
+import com.geh.reactor.base.TaskEventConsumerRegister;
+import com.geh.reactor.base.TaskEventReactor;
+import com.geh.reactor.consumer.TestEventConsumer;
+import com.geh.reactor.event.TestEvent;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

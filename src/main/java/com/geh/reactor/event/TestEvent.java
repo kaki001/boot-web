@@ -1,7 +1,7 @@
-package com.caimao.jyt.ashare.reactor.event;
+package com.geh.reactor.event;
 
 
-import com.caimao.jyt.ashare.reactor.base.TaskEvent;
+import com.geh.reactor.base.TaskEvent;
 
 public class TestEvent implements TaskEvent {
 

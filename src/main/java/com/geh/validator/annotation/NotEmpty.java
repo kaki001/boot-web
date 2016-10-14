@@ -1,6 +1,6 @@
-package com.caimao.jyt.ashare.validator.annotation;
+package com.geh.validator.annotation;
 
-import com.caimao.jyt.ashare.validator.handler.NotEmptyValidator;
+import com.geh.validator.handler.NotEmptyValidator;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

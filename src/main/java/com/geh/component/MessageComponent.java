@@ -1,4 +1,4 @@
-package com.caimao.jyt.ashare.component;
+package com.geh.component;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;

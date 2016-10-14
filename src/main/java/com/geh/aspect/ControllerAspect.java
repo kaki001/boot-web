@@ -1,7 +1,7 @@
-package com.caimao.jyt.ashare.aspect;
+package com.geh.aspect;
 
-import com.caimao.jyt.ashare.bean.ResultObject;
-import com.caimao.jyt.ashare.component.MessageComponent;
+import com.geh.bean.ResultObject;
+import com.geh.component.MessageComponent;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
@@ -34,7 +34,7 @@ public class ControllerAspect {
      * @return
      * @throws Throwable
      */
-    @Around("execution(public * com.caimao.jyt.ashare.controller..*.*(..))")
+    @Around("execution(public * com.geh.controller..*.*(..))")
     public Object doConcurrentOperation(ProceedingJoinPoint pjp) throws Throwable {
         org.slf4j.Logger logger = LoggerFactory.getLogger(pjp.getTarget().getClass());
         MethodSignature signature = (MethodSignature) pjp.getSignature();

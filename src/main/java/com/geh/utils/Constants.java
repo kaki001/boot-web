@@ -1,4 +1,4 @@
-package com.caimao.jyt.ashare.utils;
+package com.geh.utils;
 
 /**
  * Created by HuoBi on 2016/10/11.

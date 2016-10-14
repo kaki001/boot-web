@@ -1,4 +1,4 @@
-package com.caimao.jyt.ashare.reactor.base;
+package com.geh.reactor.base;
 
 import reactor.core.config.DispatcherType;
 import reactor.jarjar.com.lmax.disruptor.BlockingWaitStrategy;

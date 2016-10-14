@@ -1,7 +1,7 @@
-package com.caimao.jyt.ashare.validator.handler;
+package com.geh.validator.handler;
 
 
-import com.caimao.jyt.ashare.validator.annotation.NotEmpty;
+import com.geh.validator.annotation.NotEmpty;
 
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;

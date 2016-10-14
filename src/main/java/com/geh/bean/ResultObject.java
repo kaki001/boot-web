@@ -1,4 +1,4 @@
-package com.caimao.jyt.ashare.bean;
+package com.geh.bean;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
