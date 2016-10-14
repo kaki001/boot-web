@@ -1,0 +1,11 @@
+.idea/
+*/target/
+*.iml
+*/*.iml
+.project
+.settings
+.classpath
+*.bak
+*.log
+.externalToolBuilders
+log/*.log
